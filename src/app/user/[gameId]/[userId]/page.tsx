@@ -7,7 +7,7 @@ import {
   submitAnswer,
   vote,
 } from "@/lib/ gameApi";
-import "../../../styles/UserDashboard.css";
+import "@/styles/UserDashboard.css";
 
 export default function UserDashboard() {
   const { gameId, userId } = useParams() as { gameId: string; userId: string };

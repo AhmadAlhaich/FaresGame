@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { joinGame } from "@/lib/ gameApi";
 import { useRouter } from "next/navigation";
-import "../../styles/JoinGamePage.css";
+import "@/styles/JoinGamePage.css";
 
 export default function JoinGamePage() {
   const [gameId, setGameId] = useState("");

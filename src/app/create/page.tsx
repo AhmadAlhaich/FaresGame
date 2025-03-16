@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { createGame } from "@/lib/ gameApi";
 import { useRouter } from "next/navigation";
-import "../../styles/CreateGamePage.css";
+import "@/styles/CreateGamePage.css";
 
 export default function CreateGamePage() {
   const [gameName, setGameName] = useState("");

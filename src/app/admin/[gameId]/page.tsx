@@ -8,7 +8,7 @@ import {
   finishVoting,
   newRound,
 } from "@/lib/ gameApi";
-import "../../../styles/AdminDashboard.css";
+import "@/styles/AdminDashboard.css";
 
 export default function AdminDashboard() {
   const { gameId } = useParams() as { gameId: string };
